@@ -1,6 +1,8 @@
-# React + Vite
+# Tic-Tac-Toe Multiplayer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/mrsandeepojha/tic-tac-toe-game)
+
+A real-time multiplayer Tic-Tac-Toe game built with React, Node.js, and Socket.IO.
 
 Currently, two official plugins are available:
 

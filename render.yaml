@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tic-tac-toe-game
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+    plan: free
