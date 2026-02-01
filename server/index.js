@@ -2,9 +2,18 @@ import express from 'express';
 import { createServer } from 'http';
 import { Server } from 'socket.io';
 import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const distPath = path.join(__dirname, '../dist');
 
 const app = express();
 app.use(cors());
+
+// Serve static files from the dist folder
+app.use(express.static(distPath));
 
 const server = createServer(app);
 
