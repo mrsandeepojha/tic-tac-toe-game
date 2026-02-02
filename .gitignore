@@ -1,24 +1,29 @@
+# Dependencies
+node_modules
+tic-tac-toe/node_modules
+
+# Build output
+dist
+tic-tac-toe/dist
+
 # Logs
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+# Editor directories
+.vscode
 .idea
+
+# OS files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Vite
+.vite
+tic-tac-toe/.vite
